@@ -15,8 +15,8 @@ let riwayatPendidikan = [
         tingkat             : "Sekolah Dasar",
         tahunMulai          : 2009,
         tahunBerakhir       : 2015,
-        jurusan             : null,
-        direkomendasikan    : Boolean(1),
+        jurusan             : undefined,
+        direkomendasikan    : true,
         guruFavorite        : [undefined],
         materiFavorit       : [
             {
@@ -24,7 +24,7 @@ let riwayatPendidikan = [
                 date            : 2015,
                 pengajar        : [undefined],
                 alasan          : ["menyenangkan","materi UN"],
-                apakahSulit     : Boolean(1),
+                apakahSulit     : true,
             }
         ],
     },
@@ -33,8 +33,8 @@ let riwayatPendidikan = [
         tingkat             : "Sekolah Menengah Pertama",
         tahunMulai          : 2015,
         tahunBerakhir       : 2018,
-        jurusan             : null,
-        direkomendasikan    : Boolean(1),
+        jurusan             : undefined,
+        direkomendasikan    : true,
         lokasi              : "cukup kota",
         guruFavorite        : [undefined],
         materiFavorit       : [
@@ -43,7 +43,7 @@ let riwayatPendidikan = [
                 date            : 2018,
                 pengajar        : [undefined],
                 alasan          : ["menyenangkan","materi UN"],
-                apakahSulit     : Boolean(1),
+                apakahSulit     : true,
             }
         ],
     },
@@ -62,7 +62,7 @@ let riwayatPendidikan = [
                 date            : 2021,
                 pengajar        : ["Harianto"],
                 alasan          : ["menyenangkan","materi UN"],
-                apakahSulit     : Boolean(1),
+                apakahSulit     : true,
             }
         ],
     },
